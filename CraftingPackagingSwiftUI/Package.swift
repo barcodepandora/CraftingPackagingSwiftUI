@@ -5,7 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "CraftingPackagingSwiftUI",
-    platforms: [ .iOS(.v13) ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -22,7 +21,6 @@ let package = Package(
         .target(
             name: "CraftingPackagingSwiftUI",
             dependencies: []),
-            path: "CraftingPackagingSwiftUI/Sources/CraftingPackagingSwiftUI"),
         .testTarget(
             name: "CraftingPackagingSwiftUITests",
             dependencies: ["CraftingPackagingSwiftUI"]),
